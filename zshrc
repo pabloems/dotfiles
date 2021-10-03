@@ -71,3 +71,10 @@ export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
 sudo /etc/init.d/postgresql start
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+eval "$(rbenv init -)"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export DISPLAY=172.30.32.1:0
+export DISPLAY=172.30.32.1:0
