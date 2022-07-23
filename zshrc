@@ -78,3 +78,4 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export DISPLAY=172.30.32.1:0
 export DISPLAY=172.30.32.1:0
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
